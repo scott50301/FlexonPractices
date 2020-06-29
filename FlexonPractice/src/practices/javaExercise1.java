@@ -25,9 +25,9 @@ public class javaExercise1 {
         FileInputStream fis=new FileInputStream(new File(path));
         HSSFWorkbook wb=new HSSFWorkbook(fis);
         HSSFSheet sheet=wb.getSheetAt(0);
-        FormulaEvaluator formulaEvaluator=wb.getCreationHelper().createFormulaEvaluator();
+        //FormulaEvaluator formulaEvaluator=wb.getCreationHelper().createFormulaEvaluator();
         Cell cell = null;
-        for(Row row: sheet) {    
+        for(Row row: sheet) {
             cell = row.getCell(0);
             String cellValue = cell.getStringCellValue().trim();
             if (cellValue != null || cellValue.length() > 0){
