@@ -7,12 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a37fb66a-8220-49a8-9ff0-cfbf1aa763d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlexonPractice/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlexonPractice/FlexonPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/FlexonPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/practices/javaExercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/practices/javaExercise1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/javaExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/src/practices/javaExercise1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,7 +112,7 @@
       <workItem from="1593112996695" duration="182000" />
       <workItem from="1593113198804" duration="1601000" />
       <workItem from="1593314482068" duration="903000" />
-      <workItem from="1593325125362" duration="2837000" />
+      <workItem from="1593325125362" duration="3256000" />
     </task>
     <servers />
   </component>

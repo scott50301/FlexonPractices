@@ -18,7 +18,7 @@ import java.util.Random;
 public class javaExercise1 {
     public static void main(String[] args) throws IOException {
         List<String> names = new ArrayList<>();
-        File directory = new File("");//参数为空
+        File directory = new File("");
         String courseFile = directory.getCanonicalPath() ;
         String path= courseFile +"\\students.xls";
 
@@ -27,8 +27,8 @@ public class javaExercise1 {
         HSSFSheet sheet=wb.getSheetAt(0);
         FormulaEvaluator formulaEvaluator=wb.getCreationHelper().createFormulaEvaluator();
         Cell cell = null;
-        for(Row row: sheet) {    //iteration over row using for each loop{
-            cell = row.getCell(0);        //取得i行的第一列
+        for(Row row: sheet) {    
+            cell = row.getCell(0);
             String cellValue = cell.getStringCellValue().trim();
             if (cellValue != null || cellValue.length() > 0){
                 names.add(cellValue);
