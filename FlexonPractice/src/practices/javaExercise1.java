@@ -30,7 +30,7 @@ public class javaExercise1 {
         for(Row row: sheet) {
             cell = row.getCell(0);
             String cellValue = cell.getStringCellValue().trim();
-            if (cellValue != null || cellValue.length() > 0){
+            if (cellValue != null && cellValue.length() > 0){
                 names.add(cellValue);
             }
 
