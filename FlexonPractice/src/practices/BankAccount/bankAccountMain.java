@@ -9,12 +9,12 @@ public class bankAccountMain {
         int choice;
         boolean exit = false;
 
-
+        Scanner scanner = new Scanner(System.in);
         while(!exit){
-            Scanner scanner = new Scanner(System.in);
             System.out.println("What do you want to do today? (1)deposit (2)withdraw (3)see account information (4)exit (please enter the number)");
             if (!scanner.hasNextInt()){
                 System.out.println("Please enter valid operation code");
+                scanner = new Scanner(System.in);
                 continue;
             }
             choice = scanner.nextInt();
