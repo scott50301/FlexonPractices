@@ -1,6 +1,5 @@
-package practices;
+package practices.BankAccount;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class bankAccountMain {
@@ -12,7 +11,6 @@ public class bankAccountMain {
         while(!exit){
             System.out.println("What do you want to do today? (1)deposit (2)withdraw (3)see account information (4)exit (please enter the number)");
             choice = scanner.nextInt();
-            operate(ba, choice, exit);
             double money;
             switch (choice){
                 case 1:

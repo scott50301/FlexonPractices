@@ -1,4 +1,4 @@
-package practices;
+package practices.BankAccount;
 
 
 public class BankAccount {
