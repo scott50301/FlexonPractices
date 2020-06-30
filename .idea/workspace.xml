@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a37fb66a-8220-49a8-9ff0-cfbf1aa763d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/javaExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/src/practices/javaExercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlexonPractice/src/practices/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlexonPractice/src/practices/bankAccountMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/practices/javaExercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/practices/javaExercise1.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.javaExercise1">
+  <component name="RunManager" selected="Application.bankAccountMain">
+    <configuration name="bankAccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.bankAccountMain" />
+      <module name="FlexonPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="javaExercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practices.javaExercise1" />
       <module name="FlexonPractice" />
@@ -92,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bankAccountMain" />
         <item itemvalue="Application.javaExercise1" />
         <item itemvalue="Application.pr2" />
         <item itemvalue="Application.pr1" />
@@ -113,7 +130,7 @@
       <workItem from="1593113198804" duration="1601000" />
       <workItem from="1593314482068" duration="903000" />
       <workItem from="1593325125362" duration="3857000" />
-      <workItem from="1593398024828" duration="643000" />
+      <workItem from="1593398024828" duration="4771000" />
     </task>
     <servers />
   </component>
