@@ -4,12 +4,19 @@ import java.util.Scanner;
 
 public class bankAccountMain {
     public static void main(String[] args) {
+
         BankAccount ba = new BankAccount();
         int choice;
         boolean exit = false;
-        Scanner scanner = new Scanner(System.in);
+
+
         while(!exit){
+            Scanner scanner = new Scanner(System.in);
             System.out.println("What do you want to do today? (1)deposit (2)withdraw (3)see account information (4)exit (please enter the number)");
+            if (!scanner.hasNextInt()){
+                System.out.println("Please enter valid operation code");
+                continue;
+            }
             choice = scanner.nextInt();
             float money;
             switch (choice){
@@ -31,6 +38,7 @@ public class bankAccountMain {
                     break;
             }
         }
+
 
     }
 
