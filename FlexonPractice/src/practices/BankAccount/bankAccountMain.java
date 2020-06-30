@@ -11,16 +11,16 @@ public class bankAccountMain {
         while(!exit){
             System.out.println("What do you want to do today? (1)deposit (2)withdraw (3)see account information (4)exit (please enter the number)");
             choice = scanner.nextInt();
-            double money;
+            float money;
             switch (choice){
                 case 1:
                     System.out.println("How much money do you want to deposit?");
-                    money = scanner.nextDouble();
+                    money = scanner.nextFloat();
                     ba.deposit(money);
                     break;
                 case 2:
                     System.out.println("How much money do you want to withdraw?");
-                    money = scanner.nextDouble();
+                    money = scanner.nextFloat();
                     ba.withdraw(money);
                     break;
                 case 3:

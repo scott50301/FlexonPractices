@@ -3,24 +3,24 @@ package practices.BankAccount;
 
 public class BankAccount {
     int accountNumber;
-    double balance;
+    float balance;
     String customerName;
     String email;
     long phoneNumber;
 
     public BankAccount(){
         accountNumber = 123456789;
-        balance = 50.0;
+        balance = 50;
         customerName = "Scott";
         email = "scott60301@gmail.com";
         phoneNumber = 6692378432L;
     }
-    public void deposit(double money){
+    public void deposit(float money){
         balance += money;
         System.out.println("The balance with "+customerName+"'s account is "+ balance);
     }
 
-    public void withdraw(double money){
+    public void withdraw(float money){
         if (balance < money){
             System.out.println("The balance with "+customerName+"'s account is insufficient, current balance "+ balance);
             return;
