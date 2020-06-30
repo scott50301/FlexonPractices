@@ -1,0 +1,42 @@
+How to install Maven on windows
+You can download and install maven on windows, linux and MAC OS platforms. Here, we are going to learn how to install maven on windows OS.
+
+To install maven on windows, you need to perform following steps:
+
+Download maven and extract it
+Add JAVA_HOME and MAVEN_HOME in environment variable
+Add maven path in environment variable
+Verify Maven
+1) Download Maven
+To install maven on windows, you need to download apache maven first.
+
+Download Maven latest Maven software from Download latest version of Maven
+
+For example: apache-maven-3.1.1-bin.zip
+
+Extract it. Now it will look like this:
+
+maven structure
+2) Add MAVEN_HOME in environment variable
+Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables -> click new button
+
+Now add MAVEN_HOME in variable name and path of maven in variable value. It must be the home directory of maven i.e. outer directory of bin. For example: E:\apache-maven-3.1.1 .It is displayed below:
+
+maven home directory
+Now click on OK button.
+
+3) Add Maven Path in environment variable
+Click on new tab if path is not set, then set the path of maven. If it is set, edit the path and append the path of maven.
+
+Here, we have installed JDK and its path is set by default, so we are going to append the path of maven.
+
+The path of maven should be %maven home%/bin. For example, E:\apache-maven-3.1.1\bin .
+
+maven path
+4)Verify maven
+To verify whether maven is installed or not, open the command prompt and write:
+
+mvn −version  
+Now it will display the version of maven and jdk including the maven home and java home.
+
+Let's see the output:
