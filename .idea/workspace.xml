@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Java:jar" />
+      <artifact name="readFile:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a37fb66a-8220-49a8-9ff0-cfbf1aa763d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlexonPractice/src/practices/ReadFile/readFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlexonPractice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Java_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/readFile_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/practices/ReadFile/readFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlexonPractice/out/production/FlexonPractice/practices/ReadFile/readFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/BankAccount/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/BankAccount/bankAccountMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/ReadFile/readFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/javaExercise1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/pr1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexonPractice/src/practices/pr2.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +153,7 @@
       <workItem from="1593314482068" duration="903000" />
       <workItem from="1593325125362" duration="3857000" />
       <workItem from="1593398024828" duration="12333000" />
+      <workItem from="1593708199915" duration="2213000" />
     </task>
     <servers />
   </component>
