@@ -30,6 +30,8 @@ public class readFile {
         Map<String, Integer> map = new HashMap<>();
         Set<String> set = new HashSet<>();
         while (line != null) {
+            line = line.replace(",","");
+            line = line.replace(".","");
             String[] words = line.split(" ");
             for (String word : words){
                 int count = map.getOrDefault(word, 0)+1;
